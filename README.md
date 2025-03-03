@@ -72,3 +72,7 @@ This script removes trailing whitespaces from files. It can process individual f
 ## License
 
 This project is licensed under the MIT License.
+
+## Copyright
+
+Copyright © 2024 Denis Shimizu
