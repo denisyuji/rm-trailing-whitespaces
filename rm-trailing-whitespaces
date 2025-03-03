@@ -3,7 +3,7 @@
 VERSION="1.0.0"
 
 show_help() {
-    echo "Usage: rm-trailing-whitespaces.sh [OPTION] [FILE|DIRECTORY]"
+    echo "Usage: rm-trailing-whitespaces [OPTION] [FILE|DIRECTORY]"
     echo "Remove trailing whitespaces from files."
     echo ""
     echo "Options:"
@@ -17,7 +17,7 @@ show_help() {
 }
 
 show_version() {
-    echo "rm-trailing-whitespaces.sh version $VERSION"
+    echo "rm-trailing-whitespaces version $VERSION"
     exit 0
 }
 

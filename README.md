@@ -7,7 +7,7 @@ This script removes trailing whitespaces from files. It can process individual f
 ## Usage
 
 ```
-./rm-trailing-whitespaces.sh [OPTION] [FILE|DIRECTORY]
+./rm-trailing-whitespaces [OPTION] [FILE|DIRECTORY]
 ```
 
 ## Options
@@ -24,44 +24,44 @@ This script removes trailing whitespaces from files. It can process individual f
 2. Make it executable:
 
 ```
-   chmod +x rm-trailing-whitespaces.sh
+   chmod +x rm-trailing-whitespaces
 ```
 
 3. Move it to a directory in your `PATH` (optional):
 
 ```
-   mv rm-trailing-whitespaces.sh /usr/local/bin/
+   mv rm-trailing-whitespaces /usr/local/bin/
 ```
 
 ## Examples
 - Remove trailing whitespaces from a file:
 
 ```
-  ./rm-trailing-whitespaces.sh myfile.txt
+  ./rm-trailing-whitespaces myfile.txt
 ```
 
 - Remove trailing whitespaces from all files in a directory:
 
 ```
-  ./rm-trailing-whitespaces.sh mydirectory
+  ./rm-trailing-whitespaces mydirectory
 ```
 
 - Remove trailing whitespaces from all files in the current directory and subdirectories (with confirmation):
 
 ```
-  ./rm-trailing-whitespaces.sh
+  ./rm-trailing-whitespaces
 ```
 
 - Display the help message:
 
 ```
-  ./rm-trailing-whitespaces.sh --help
+  ./rm-trailing-whitespaces --help
 ```
 
 - Display the script version:
 
 ```
-  ./rm-trailing-whitespaces.sh --version
+  ./rm-trailing-whitespaces --version
 ```
 
 ## Notes
